@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Contact page ni sha</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'Contact Us')
+
+@section('content')
+    <div class="text-center">
+        <h1>Contact Us</h1>
+        <p class="lead">Have questions? Reach out to us!</p>
+        <form class="mt-3 w-50 mx-auto">
+            <input type="text" class="form-control mb-2" placeholder="Your Name">
+            <input type="email" class="form-control mb-2" placeholder="Your Email">
+            <textarea class="form-control mb-2" rows="4" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+@endsection
