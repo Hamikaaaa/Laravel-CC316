@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>this is welcome page</h1>
+    <h1>About page ni sha</h1>
 </body>
 </html>
